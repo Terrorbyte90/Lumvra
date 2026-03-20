@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "app_name" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Lumvra" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Lumvra" } }
+      }
+    },
+    "sleep_score" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Sleep Score" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Sömnpoäng" } }
+      }
+    },
+    "good_morning" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Good morning 🌙" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "God morgon 🌙" } }
+      }
+    },
+    "evening_checkin" : {
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Evening check-in 🌙" } },
+        "sv" : { "stringUnit" : { "state" : "translated", "value" : "Kvällskoll 🌙" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}
