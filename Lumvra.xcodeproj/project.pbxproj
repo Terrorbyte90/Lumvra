@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		159D4B607F6D900BDC631FCB /* LumvraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E39992B0A06A28BA25C217 /* LumvraTests.swift */; };
+		241CEF8B03E311C9528E792D /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CD164432500AB9D495447D61 /* RevenueCat */; };
+		49F7F6251E81F5C9CD8E32CC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BD46215BDDD1289C6290492 /* Config.plist */; };
+		BA31F27C816D87306FFDD3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */; };
+		EE2DA1430C087B4EAF27BC52 /* LumvraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4062287C176D45317B5F572 /* LumvraApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC52033FCF5198D4645B4E27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3A524FBB9F592A6995208968 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A535D529949B1D7DA40245;
+			remoteInfo = Lumvra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BD46215BDDD1289C6290492 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Config.plist; sourceTree = "<group>"; };
+		3B43C2543E0F006A4AA3EF4B /* Lumvra.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lumvra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DD6C1839B6566CFD621E1BE /* Lumvra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lumvra.entitlements; sourceTree = "<group>"; };
+		89F6452550F8ECF209B323FD /* LumvraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LumvraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D443ADAC3957533FA11CD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4062287C176D45317B5F572 /* LumvraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumvraApp.swift; sourceTree = "<group>"; };
+		F4E39992B0A06A28BA25C217 /* LumvraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumvraTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77A2080906F4EECBA5E6EC8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				241CEF8B03E311C9528E792D /* RevenueCat in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E3B1F05D80139D30A9EE849 /* LumvraTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4E39992B0A06A28BA25C217 /* LumvraTests.swift */,
+			);
+			path = LumvraTests;
+			sourceTree = "<group>";
+		};
+		32904D7A59FB4A9D4793EA95 /* Lumvra */ = {
+			isa = PBXGroup;
+			children = (
+				8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */,
+				9D443ADAC3957533FA11CD0D /* Info.plist */,
+				3DD6C1839B6566CFD621E1BE /* Lumvra.entitlements */,
+				C4062287C176D45317B5F572 /* LumvraApp.swift */,
+				BADC8520F356485290072E41 /* Config */,
+			);
+			path = Lumvra;
+			sourceTree = "<group>";
+		};
+		35D384952F39107E3CA9D0C3 = {
+			isa = PBXGroup;
+			children = (
+				32904D7A59FB4A9D4793EA95 /* Lumvra */,
+				0E3B1F05D80139D30A9EE849 /* LumvraTests */,
+				70C6B3A3999949510F5C03B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70C6B3A3999949510F5C03B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B43C2543E0F006A4AA3EF4B /* Lumvra.app */,
+				89F6452550F8ECF209B323FD /* LumvraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADC8520F356485290072E41 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				0BD46215BDDD1289C6290492 /* Config.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		"TEMP_282862D7-7E3F-450E-A344-73EF78089F42" /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65A535D529949B1D7DA40245 /* Lumvra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6C6C3BB5799D4FD6FD23234 /* Build configuration list for PBXNativeTarget "Lumvra" */;
+			buildPhases = (
+				518E833948C2233E5A7FEB7F /* Sources */,
+				EDFD08B10F7D9A5A00BEF307 /* Resources */,
+				77A2080906F4EECBA5E6EC8F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lumvra;
+			packageProductDependencies = (
+				CD164432500AB9D495447D61 /* RevenueCat */,
+			);
+			productName = Lumvra;
+			productReference = 3B43C2543E0F006A4AA3EF4B /* Lumvra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD05240604B168A25134BF2D /* LumvraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF02C969F25D4D8AD605B1B /* Build configuration list for PBXNativeTarget "LumvraTests" */;
+			buildPhases = (
+				C9B2C240CAE697E8F513E8B4 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				115DDAD878AEB12C88FA9D13 /* PBXTargetDependency */,
+			);
+			name = LumvraTests;
+			packageProductDependencies = (
+			);
+			productName = LumvraTests;
+			productReference = 89F6452550F8ECF209B323FD /* LumvraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A524FBB9F592A6995208968 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					65A535D529949B1D7DA40245 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3740512DD7A03140C91AEBB7 /* Build configuration list for PBXProject "Lumvra" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 35D384952F39107E3CA9D0C3;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B22734EB851A5D3262D9107D /* XCRemoteSwiftPackageReference "purchases-ios" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 70C6B3A3999949510F5C03B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A535D529949B1D7DA40245 /* Lumvra */,
+				FD05240604B168A25134BF2D /* LumvraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDFD08B10F7D9A5A00BEF307 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA31F27C816D87306FFDD3B1 /* Assets.xcassets in Resources */,
+				49F7F6251E81F5C9CD8E32CC /* Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518E833948C2233E5A7FEB7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2DA1430C087B4EAF27BC52 /* LumvraApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9B2C240CAE697E8F513E8B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				159D4B607F6D900BDC631FCB /* LumvraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		115DDAD878AEB12C88FA9D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A535D529949B1D7DA40245 /* Lumvra */;
+			targetProxy = AC52033FCF5198D4645B4E27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		363DFE83C5E69357F970B159 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrorbyte90.lumvraTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumvra.app/Lumvra";
+			};
+			name = Debug;
+		};
+		37A24E8CEB42FF88FE155BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6;
+			};
+			name = Debug;
+		};
+		7A63AE42358FB79ADA79CC41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lumvra/Lumvra.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Lumvra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrorbyte90.lumvra;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7C71B97F229CF3C33E310D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Lumvra/Lumvra.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Lumvra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrorbyte90.lumvra;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF84AF5DBEB688552737998E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6;
+			};
+			name = Release;
+		};
+		EF7ECD1F43378B347F994414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.terrorbyte90.lumvraTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lumvra.app/Lumvra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3740512DD7A03140C91AEBB7 /* Build configuration list for PBXProject "Lumvra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37A24E8CEB42FF88FE155BA1 /* Debug */,
+				BF84AF5DBEB688552737998E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8FF02C969F25D4D8AD605B1B /* Build configuration list for PBXNativeTarget "LumvraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363DFE83C5E69357F970B159 /* Debug */,
+				EF7ECD1F43378B347F994414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C6C6C3BB5799D4FD6FD23234 /* Build configuration list for PBXNativeTarget "Lumvra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C71B97F229CF3C33E310D7 /* Debug */,
+				7A63AE42358FB79ADA79CC41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B22734EB851A5D3262D9107D /* XCRemoteSwiftPackageReference "purchases-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RevenueCat/purchases-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD164432500AB9D495447D61 /* RevenueCat */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B22734EB851A5D3262D9107D /* XCRemoteSwiftPackageReference "purchases-ios" */;
+			productName = RevenueCat;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3A524FBB9F592A6995208968 /* Project object */;
+}

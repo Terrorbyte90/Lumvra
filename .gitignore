@@ -1,0 +1,7 @@
+Lumvra/Config/Config.plist
+*.xcuserstate
+DerivedData/
+.DS_Store
+*.xcworkspace/xcuserdata/
+xcuserdata/
+.build/

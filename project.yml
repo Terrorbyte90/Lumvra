@@ -1,0 +1,61 @@
+name: Lumvra
+options:
+  bundleIdPrefix: com.terrorbyte90
+  deploymentTarget:
+    iOS: "17.0"
+  defaultConfig: Debug
+  xcodeVersion: "16.0"
+
+settings:
+  SWIFT_VERSION: "6"
+  SWIFT_STRICT_CONCURRENCY: complete
+  IPHONEOS_DEPLOYMENT_TARGET: 17.0
+  ENABLE_USER_SCRIPT_SANDBOXING: NO
+
+targets:
+  Lumvra:
+    type: application
+    platform: iOS
+    sources:
+      - path: Lumvra
+        excludes:
+          - "**/.DS_Store"
+    info:
+      path: Lumvra/Info.plist
+      properties:
+        CFBundleDisplayName: Lumvra
+        NSHealthShareUsageDescription: "Lumvra reads your sleep data from Apple Health to generate personalised insights. Your data never leaves your device."
+        UILaunchStoryboardName: ""
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+          UISceneConfigurations: {}
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.terrorbyte90.lumvra
+      MARKETING_VERSION: "1.0"
+      CURRENT_PROJECT_VERSION: "1"
+      DEVELOPMENT_TEAM: ""
+      CODE_SIGN_STYLE: Automatic
+    dependencies:
+      - package: RevenueCat
+        product: RevenueCat
+    entitlements:
+      path: Lumvra/Lumvra.entitlements
+      properties:
+        com.apple.developer.healthkit: true
+    scheme:
+      testTargets:
+        - LumvraTests
+
+  LumvraTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources: [LumvraTests]
+    settings:
+      PRODUCT_BUNDLE_IDENTIFIER: com.terrorbyte90.lumvraTests
+    dependencies:
+      - target: Lumvra
+
+packages:
+  RevenueCat:
+    url: https://github.com/RevenueCat/purchases-ios.git
+    from: 5.0.0
