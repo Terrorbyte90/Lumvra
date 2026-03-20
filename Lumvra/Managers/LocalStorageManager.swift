@@ -1,6 +1,7 @@
 import Foundation
 import Security
 
+@MainActor
 protocol SleepStorage {
     func loadProfile() -> UserProfile?
     func saveProfile(_ profile: UserProfile)

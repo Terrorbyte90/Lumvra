@@ -7,11 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		159D4B607F6D900BDC631FCB /* LumvraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4E39992B0A06A28BA25C217 /* LumvraTests.swift */; };
+		0706B4E22F16DEE092FB0E44 /* SleepInsight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784FEBB32B9BDC7540B2D33A /* SleepInsight.swift */; };
+		0D703556CCCA8C30938CAE6C /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF7BFA6704BB7370D29BAB /* PaywallView.swift */; };
+		10B747F5CE090EF7AFF33272 /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA5DB2CC4BF9B4F1A3AAC6 /* InsightCard.swift */; };
+		21AEDA18529C4EC390DBF81C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F793A69407EBEF16B37A28F3 /* WelcomeView.swift */; };
 		241CEF8B03E311C9528E792D /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CD164432500AB9D495447D61 /* RevenueCat */; };
+		266930295BA5AA1BD4AA6D86 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D55315B31B2375A94273 /* UserState.swift */; };
+		2745595B91EE6DC32D37818F /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259DC974CF934A8A367D810 /* SleepData.swift */; };
+		2AC2E4B7C8C52A375AC4421B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A18A89F382F6C416CB10EC8 /* UserProfile.swift */; };
+		2F4C60815D5A2E579630F9F9 /* CheckInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B146E3F1AE9AE1F257845045 /* CheckInButton.swift */; };
+		34E6AACD40DEBF34188F6566 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8848B459EE44C0C976F88324 /* TrendsView.swift */; };
+		3D22CF078577D7522E5497F4 /* DataQualityBadge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4BC55904D7DE35422F8CE /* DataQualityBadge.swift */; };
+		3DBBB1EAD979CF33C0C13749 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 355CF91CA2044E079952433E /* Color+Hex.swift */; };
+		41F8754E9F7F8CE484D58884 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 218AE9B4AEB05A5596E5D306 /* NotificationPermissionView.swift */; };
+		422E4A6AD8B52D684AB6C15D /* DataQualityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4ABB45E9BC6AA657E9FD0F /* DataQualityTests.swift */; };
 		49F7F6251E81F5C9CD8E32CC /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0BD46215BDDD1289C6290492 /* Config.plist */; };
+		4B7F9975DE461720B8D79148 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F87C25487E2B8CB62266236 /* ConfigManager.swift */; };
+		518AD6A333190BC5BA70BFD0 /* WatchUpgradePrompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED4F03B1383CA08C2409F0A /* WatchUpgradePrompt.swift */; };
+		56906DE11CDCC9D39F55ECDE /* HealthKitPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E760ED42656225F8E144BFEC /* HealthKitPermissionView.swift */; };
+		5E22E2927D48360036997438 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCF77B7BF51F4501C456B9F /* OnboardingContainerView.swift */; };
+		6401CAACF77DF42A916E1D3E /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED0BE8A3D39F84D92719168 /* NotificationManager.swift */; };
+		68015C52B8A4F34D7BAA08AD /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BF970F9B09AAB16689B925 /* HealthKitManager.swift */; };
+		6EB45CD25874ABC5D8781422 /* AIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98766ABD72D1FDBD337F1EBB /* AIManager.swift */; };
+		719D40EAB8C628435E75291C /* DataQuality.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03916297D319C4A1A1572876 /* DataQuality.swift */; };
+		85250E8D521B53EFEBB4AABF /* LoadingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0479AC61D223980AC94B2E /* LoadingDataView.swift */; };
+		8658675878190CB43EC35AE3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797809F9891EB1898883BB01 /* SettingsView.swift */; };
+		87F51A297396AFB02EA9FBDC /* ScoreAlgorithmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A0AECD0BA3A4D027F036CD /* ScoreAlgorithmTests.swift */; };
+		8EACE7C8F4815062BC58E66C /* SupabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B8457F55F706CF7AA77B5 /* SupabaseManager.swift */; };
+		939F3F0F2B62A8CB40A847A2 /* StageBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950EAA721ADE31CD845B707E /* StageBar.swift */; };
+		A9B1A2A686CFCC3256B7A9D3 /* MorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98778AAA7683751620DBE1E8 /* MorningView.swift */; };
+		A9DEEF02B2774F2EBD1CBC18 /* EveningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FBA65FEF9F58C431F1E76D /* EveningView.swift */; };
 		BA31F27C816D87306FFDD3B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */; };
+		BC606B5C69782DB050C674C9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72BA01DBF3609B7CCA5BAF30 /* ContentView.swift */; };
+		D3C18B61A798085D67EC7133 /* LocalStorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26256DF53B862420F8A0E88F /* LocalStorageManager.swift */; };
+		D59D75FB7024C03DB1C12476 /* LocalStorageManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7EC189DE7A556853BF7CDA /* LocalStorageManagerTests.swift */; };
+		D8E1851D98ECD102B7F3FC4F /* SleepScoreRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949776E5A02D18A5FAB83EE0 /* SleepScoreRing.swift */; };
+		E41D080859CB35BBAEDBEBC8 /* LanguageManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66ECF172FEC2C0D6AD0FDC79 /* LanguageManagerTests.swift */; };
 		EE2DA1430C087B4EAF27BC52 /* LumvraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4062287C176D45317B5F572 /* LumvraApp.swift */; };
+		EF9C44769CB022F85DCF34A3 /* EveningCheckin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79CD1C9E0DB23278DE78698 /* EveningCheckin.swift */; };
+		F9833A22A03697948B3BF590 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC43792C9A9713EF7EEB4A7 /* MainTabView.swift */; };
+		FE0A5BF50EC1C304E4639A67 /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EAA1E370567E6CF3FBB1D6 /* LanguageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,14 +60,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01EAA1E370567E6CF3FBB1D6 /* LanguageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		03916297D319C4A1A1572876 /* DataQuality.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQuality.swift; sourceTree = "<group>"; };
+		05F4BC55904D7DE35422F8CE /* DataQualityBadge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQualityBadge.swift; sourceTree = "<group>"; };
 		0BD46215BDDD1289C6290492 /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Config.plist; sourceTree = "<group>"; };
+		218AE9B4AEB05A5596E5D306 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		26256DF53B862420F8A0E88F /* LocalStorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManager.swift; sourceTree = "<group>"; };
+		355CF91CA2044E079952433E /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
 		3B43C2543E0F006A4AA3EF4B /* Lumvra.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Lumvra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C4ABB45E9BC6AA657E9FD0F /* DataQualityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataQualityTests.swift; sourceTree = "<group>"; };
 		3DD6C1839B6566CFD621E1BE /* Lumvra.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Lumvra.entitlements; sourceTree = "<group>"; };
+		48FBA65FEF9F58C431F1E76D /* EveningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningView.swift; sourceTree = "<group>"; };
+		4ED4F03B1383CA08C2409F0A /* WatchUpgradePrompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchUpgradePrompt.swift; sourceTree = "<group>"; };
+		573B8457F55F706CF7AA77B5 /* SupabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupabaseManager.swift; sourceTree = "<group>"; };
+		5E17D55315B31B2375A94273 /* UserState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserState.swift; sourceTree = "<group>"; };
+		5FCF77B7BF51F4501C456B9F /* OnboardingContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		66ECF172FEC2C0D6AD0FDC79 /* LanguageManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageManagerTests.swift; sourceTree = "<group>"; };
+		6ED0BE8A3D39F84D92719168 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		72BA01DBF3609B7CCA5BAF30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		784FEBB32B9BDC7540B2D33A /* SleepInsight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInsight.swift; sourceTree = "<group>"; };
+		797809F9891EB1898883BB01 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		7A18A89F382F6C416CB10EC8 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		7F87C25487E2B8CB62266236 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		8848B459EE44C0C976F88324 /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
 		89F6452550F8ECF209B323FD /* LumvraTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = LumvraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90CA5DB2CC4BF9B4F1A3AAC6 /* InsightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsightCard.swift; sourceTree = "<group>"; };
+		91A0AECD0BA3A4D027F036CD /* ScoreAlgorithmTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreAlgorithmTests.swift; sourceTree = "<group>"; };
+		949776E5A02D18A5FAB83EE0 /* SleepScoreRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScoreRing.swift; sourceTree = "<group>"; };
+		950EAA721ADE31CD845B707E /* StageBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StageBar.swift; sourceTree = "<group>"; };
+		98766ABD72D1FDBD337F1EBB /* AIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIManager.swift; sourceTree = "<group>"; };
+		98778AAA7683751620DBE1E8 /* MorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningView.swift; sourceTree = "<group>"; };
 		9D443ADAC3957533FA11CD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		9FAF7BFA6704BB7370D29BAB /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A79CD1C9E0DB23278DE78698 /* EveningCheckin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningCheckin.swift; sourceTree = "<group>"; };
+		AF0479AC61D223980AC94B2E /* LoadingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDataView.swift; sourceTree = "<group>"; };
+		B146E3F1AE9AE1F257845045 /* CheckInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInButton.swift; sourceTree = "<group>"; };
 		C4062287C176D45317B5F572 /* LumvraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumvraApp.swift; sourceTree = "<group>"; };
-		F4E39992B0A06A28BA25C217 /* LumvraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LumvraTests.swift; sourceTree = "<group>"; };
+		E5BF970F9B09AAB16689B925 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		E760ED42656225F8E144BFEC /* HealthKitPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionView.swift; sourceTree = "<group>"; };
+		EA7EC189DE7A556853BF7CDA /* LocalStorageManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageManagerTests.swift; sourceTree = "<group>"; };
+		EAC43792C9A9713EF7EEB4A7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		F259DC974CF934A8A367D810 /* SleepData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepData.swift; sourceTree = "<group>"; };
+		F793A69407EBEF16B37A28F3 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,19 +120,61 @@
 		0E3B1F05D80139D30A9EE849 /* LumvraTests */ = {
 			isa = PBXGroup;
 			children = (
-				F4E39992B0A06A28BA25C217 /* LumvraTests.swift */,
+				3C4ABB45E9BC6AA657E9FD0F /* DataQualityTests.swift */,
+				66ECF172FEC2C0D6AD0FDC79 /* LanguageManagerTests.swift */,
+				EA7EC189DE7A556853BF7CDA /* LocalStorageManagerTests.swift */,
+				91A0AECD0BA3A4D027F036CD /* ScoreAlgorithmTests.swift */,
 			);
 			path = LumvraTests;
+			sourceTree = "<group>";
+		};
+		1DF5CBCD78A53A7CC10C3B0D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				03916297D319C4A1A1572876 /* DataQuality.swift */,
+				A79CD1C9E0DB23278DE78698 /* EveningCheckin.swift */,
+				F259DC974CF934A8A367D810 /* SleepData.swift */,
+				784FEBB32B9BDC7540B2D33A /* SleepInsight.swift */,
+				7A18A89F382F6C416CB10EC8 /* UserProfile.swift */,
+				5E17D55315B31B2375A94273 /* UserState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20D031E6AB689D1FD8CF0073 /* Paywall */ = {
+			isa = PBXGroup;
+			children = (
+				9FAF7BFA6704BB7370D29BAB /* PaywallView.swift */,
+			);
+			path = Paywall;
+			sourceTree = "<group>";
+		};
+		31C7C6F94A024EE11A895E0C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				E760ED42656225F8E144BFEC /* HealthKitPermissionView.swift */,
+				AF0479AC61D223980AC94B2E /* LoadingDataView.swift */,
+				218AE9B4AEB05A5596E5D306 /* NotificationPermissionView.swift */,
+				5FCF77B7BF51F4501C456B9F /* OnboardingContainerView.swift */,
+				F793A69407EBEF16B37A28F3 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		32904D7A59FB4A9D4793EA95 /* Lumvra */ = {
 			isa = PBXGroup;
 			children = (
 				8E6F3FB5EB351FA4D8D112D5 /* Assets.xcassets */,
+				72BA01DBF3609B7CCA5BAF30 /* ContentView.swift */,
 				9D443ADAC3957533FA11CD0D /* Info.plist */,
 				3DD6C1839B6566CFD621E1BE /* Lumvra.entitlements */,
 				C4062287C176D45317B5F572 /* LumvraApp.swift */,
+				BBFEEF96E7B0E8B334686CE3 /* Components */,
 				BADC8520F356485290072E41 /* Config */,
+				90D0786E038CC2D446E05608 /* Extensions */,
+				E752634BB98D71355D000430 /* Managers */,
+				1DF5CBCD78A53A7CC10C3B0D /* Models */,
+				7187EBA5923212C00846FAFA /* Views */,
 			);
 			path = Lumvra;
 			sourceTree = "<group>";
@@ -85,19 +197,77 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7187EBA5923212C00846FAFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				902306508BFBA77C8B70D394 /* Main */,
+				31C7C6F94A024EE11A895E0C /* Onboarding */,
+				20D031E6AB689D1FD8CF0073 /* Paywall */,
+				AD7E437F90378C55EEEDCB9C /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		902306508BFBA77C8B70D394 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				48FBA65FEF9F58C431F1E76D /* EveningView.swift */,
+				EAC43792C9A9713EF7EEB4A7 /* MainTabView.swift */,
+				98778AAA7683751620DBE1E8 /* MorningView.swift */,
+				8848B459EE44C0C976F88324 /* TrendsView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		90D0786E038CC2D446E05608 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				355CF91CA2044E079952433E /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AD7E437F90378C55EEEDCB9C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				797809F9891EB1898883BB01 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
 		BADC8520F356485290072E41 /* Config */ = {
 			isa = PBXGroup;
 			children = (
 				0BD46215BDDD1289C6290492 /* Config.plist */,
+				7F87C25487E2B8CB62266236 /* ConfigManager.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		"TEMP_282862D7-7E3F-450E-A344-73EF78089F42" /* Views */ = {
+		BBFEEF96E7B0E8B334686CE3 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				B146E3F1AE9AE1F257845045 /* CheckInButton.swift */,
+				05F4BC55904D7DE35422F8CE /* DataQualityBadge.swift */,
+				90CA5DB2CC4BF9B4F1A3AAC6 /* InsightCard.swift */,
+				949776E5A02D18A5FAB83EE0 /* SleepScoreRing.swift */,
+				950EAA721ADE31CD845B707E /* StageBar.swift */,
+				4ED4F03B1383CA08C2409F0A /* WatchUpgradePrompt.swift */,
 			);
-			path = Views;
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E752634BB98D71355D000430 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				98766ABD72D1FDBD337F1EBB /* AIManager.swift */,
+				E5BF970F9B09AAB16689B925 /* HealthKitManager.swift */,
+				01EAA1E370567E6CF3FBB1D6 /* LanguageManager.swift */,
+				26256DF53B862420F8A0E88F /* LocalStorageManager.swift */,
+				6ED0BE8A3D39F84D92719168 /* NotificationManager.swift */,
+				573B8457F55F706CF7AA77B5 /* SupabaseManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +366,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EB45CD25874ABC5D8781422 /* AIManager.swift in Sources */,
+				2F4C60815D5A2E579630F9F9 /* CheckInButton.swift in Sources */,
+				3DBBB1EAD979CF33C0C13749 /* Color+Hex.swift in Sources */,
+				4B7F9975DE461720B8D79148 /* ConfigManager.swift in Sources */,
+				BC606B5C69782DB050C674C9 /* ContentView.swift in Sources */,
+				719D40EAB8C628435E75291C /* DataQuality.swift in Sources */,
+				3D22CF078577D7522E5497F4 /* DataQualityBadge.swift in Sources */,
+				EF9C44769CB022F85DCF34A3 /* EveningCheckin.swift in Sources */,
+				A9DEEF02B2774F2EBD1CBC18 /* EveningView.swift in Sources */,
+				68015C52B8A4F34D7BAA08AD /* HealthKitManager.swift in Sources */,
+				56906DE11CDCC9D39F55ECDE /* HealthKitPermissionView.swift in Sources */,
+				10B747F5CE090EF7AFF33272 /* InsightCard.swift in Sources */,
+				FE0A5BF50EC1C304E4639A67 /* LanguageManager.swift in Sources */,
+				85250E8D521B53EFEBB4AABF /* LoadingDataView.swift in Sources */,
+				D3C18B61A798085D67EC7133 /* LocalStorageManager.swift in Sources */,
 				EE2DA1430C087B4EAF27BC52 /* LumvraApp.swift in Sources */,
+				F9833A22A03697948B3BF590 /* MainTabView.swift in Sources */,
+				A9B1A2A686CFCC3256B7A9D3 /* MorningView.swift in Sources */,
+				6401CAACF77DF42A916E1D3E /* NotificationManager.swift in Sources */,
+				41F8754E9F7F8CE484D58884 /* NotificationPermissionView.swift in Sources */,
+				5E22E2927D48360036997438 /* OnboardingContainerView.swift in Sources */,
+				0D703556CCCA8C30938CAE6C /* PaywallView.swift in Sources */,
+				8658675878190CB43EC35AE3 /* SettingsView.swift in Sources */,
+				2745595B91EE6DC32D37818F /* SleepData.swift in Sources */,
+				0706B4E22F16DEE092FB0E44 /* SleepInsight.swift in Sources */,
+				D8E1851D98ECD102B7F3FC4F /* SleepScoreRing.swift in Sources */,
+				939F3F0F2B62A8CB40A847A2 /* StageBar.swift in Sources */,
+				8EACE7C8F4815062BC58E66C /* SupabaseManager.swift in Sources */,
+				34E6AACD40DEBF34188F6566 /* TrendsView.swift in Sources */,
+				2AC2E4B7C8C52A375AC4421B /* UserProfile.swift in Sources */,
+				266930295BA5AA1BD4AA6D86 /* UserState.swift in Sources */,
+				518AD6A333190BC5BA70BFD0 /* WatchUpgradePrompt.swift in Sources */,
+				21AEDA18529C4EC390DBF81C /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +406,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				159D4B607F6D900BDC631FCB /* LumvraTests.swift in Sources */,
+				422E4A6AD8B52D684AB6C15D /* DataQualityTests.swift in Sources */,
+				E41D080859CB35BBAEDBEBC8 /* LanguageManagerTests.swift in Sources */,
+				D59D75FB7024C03DB1C12476 /* LocalStorageManagerTests.swift in Sources */,
+				87F51A297396AFB02EA9FBDC /* ScoreAlgorithmTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

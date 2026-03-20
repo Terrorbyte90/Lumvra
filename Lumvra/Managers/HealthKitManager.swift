@@ -81,7 +81,7 @@ class HealthKitManager: ObservableObject {
         }
     }
 
-    private func process(_ samples: [HKCategorySample], date: Date) -> SleepData {
+    nonisolated private func process(_ samples: [HKCategorySample], date: Date) -> SleepData {
         var deep = 0, core = 0, rem = 0, awake = 0, inBed = 0
 
         let hasStageData = samples.contains {
@@ -135,7 +135,7 @@ class HealthKitManager: ObservableObject {
         )
     }
 
-    private func detectQuality(samples: [HKCategorySample], hasStages: Bool, hasAwake: Bool) -> DataQuality {
+    nonisolated private func detectQuality(samples: [HKCategorySample], hasStages: Bool, hasAwake: Bool) -> DataQuality {
         if hasStages { return .full }
         // .partial = awake samples from an Apple Watch source (bundle + device model check)
         let hasWatchAwake = hasAwake && samples.contains {
@@ -152,7 +152,7 @@ class HealthKitManager: ObservableObject {
     }
 
     // Static so it's directly testable without a HealthKit store
-    static func calculateScore(deep: Int, core: Int, rem: Int,
+    nonisolated static func calculateScore(deep: Int, core: Int, rem: Int,
                                 total: Int, inBed: Int,
                                 awakeCount: Int, quality: DataQuality) -> Int {
         switch quality {
