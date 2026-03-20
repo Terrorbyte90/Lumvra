@@ -11,6 +11,7 @@
 		0D703556CCCA8C30938CAE6C /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FAF7BFA6704BB7370D29BAB /* PaywallView.swift */; };
 		10B747F5CE090EF7AFF33272 /* InsightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90CA5DB2CC4BF9B4F1A3AAC6 /* InsightCard.swift */; };
 		21AEDA18529C4EC390DBF81C /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F793A69407EBEF16B37A28F3 /* WelcomeView.swift */; };
+		231760A081687E75B5779EBD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = A21AEB7E2D55F045E8149625 /* Localizable.xcstrings */; };
 		241CEF8B03E311C9528E792D /* RevenueCat in Frameworks */ = {isa = PBXBuildFile; productRef = CD164432500AB9D495447D61 /* RevenueCat */; };
 		266930295BA5AA1BD4AA6D86 /* UserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E17D55315B31B2375A94273 /* UserState.swift */; };
 		2745595B91EE6DC32D37818F /* SleepData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259DC974CF934A8A367D810 /* SleepData.swift */; };
@@ -93,6 +94,7 @@
 		98778AAA7683751620DBE1E8 /* MorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningView.swift; sourceTree = "<group>"; };
 		9D443ADAC3957533FA11CD0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		9FAF7BFA6704BB7370D29BAB /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		A21AEB7E2D55F045E8149625 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		A79CD1C9E0DB23278DE78698 /* EveningCheckin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveningCheckin.swift; sourceTree = "<group>"; };
 		AF0479AC61D223980AC94B2E /* LoadingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDataView.swift; sourceTree = "<group>"; };
 		B146E3F1AE9AE1F257845045 /* CheckInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckInButton.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 				90D0786E038CC2D446E05608 /* Extensions */,
 				E752634BB98D71355D000430 /* Managers */,
 				1DF5CBCD78A53A7CC10C3B0D /* Models */,
+				A7070A4E86D9ECF8684D10A0 /* Resources */,
 				7187EBA5923212C00846FAFA /* Views */,
 			);
 			path = Lumvra;
@@ -225,6 +228,14 @@
 				355CF91CA2044E079952433E /* Color+Hex.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A7070A4E86D9ECF8684D10A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A21AEB7E2D55F045E8149625 /* Localizable.xcstrings */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		AD7E437F90378C55EEEDCB9C /* Settings */ = {
@@ -332,6 +343,7 @@
 			knownRegions = (
 				Base,
 				en,
+				sv,
 			);
 			mainGroup = 35D384952F39107E3CA9D0C3;
 			minimizedProjectReferenceProxies = 1;
@@ -356,6 +368,7 @@
 			files = (
 				BA31F27C816D87306FFDD3B1 /* Assets.xcassets in Resources */,
 				49F7F6251E81F5C9CD8E32CC /* Config.plist in Resources */,
+				231760A081687E75B5779EBD /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -609,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

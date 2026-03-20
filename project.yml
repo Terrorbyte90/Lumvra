@@ -52,6 +52,7 @@ targets:
     sources: [LumvraTests]
     settings:
       PRODUCT_BUNDLE_IDENTIFIER: com.terrorbyte90.lumvraTests
+      GENERATE_INFOPLIST_FILE: YES
     dependencies:
       - target: Lumvra
 
